@@ -1,0 +1,83 @@
+.Header-main{
+    background-color: mediumpurple;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-name{
+    text-decoration: none;
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.characters{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: center;
+}
+
+.character-item{
+    background-color: lightgray;
+    width: 300px;
+    box-shadow: 7px 6px 5px 4px rgb(0 0 0 / 23%);
+    justify-content: center;
+    display: flex;
+} 
+
+.character-name{
+    text-decoration: none;
+    color: dodgerblue;
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+}
+
+.home-img {
+    width: 200px;
+    height: 200px;
+    padding: 8px;
+}
+
+
+.container-character{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+}
+
+.characters-inner{
+    display: flex;
+    width: 450px;
+    justify-content: center;
+    background-color: lightgray;
+    padding: 15px;
+    box-shadow: 7px 6px 5px 4px rgb(0 0 0 / 23%);
+}
+    
+.characters-card-info{
+    padding: 8px;
+    font-family: 'Gowun Dodum', sans-serif;
+    margin-left: 15px;
+}
+
+.error {
+    color: dodgerblue;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 6rem;
+    text-align: center;
+}
+
+.error-image {
+    background-image: url('../assets/png-pikachu.png');
+    height: 200px;
+    width: 200px;
+}
+
+.error-404 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
